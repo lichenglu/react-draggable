@@ -6,6 +6,7 @@
   "browser": "build/web/react-draggable.min.js",
   "module": "build/module/Draggable.js",
   "scripts": {
+    "prepare": "npm run build",
     "test": "make test",
     "test-phantom": "make test-phantom",
     "test-debug": "karma start --browsers=Chrome --single-run=false --auto-watch=true",
